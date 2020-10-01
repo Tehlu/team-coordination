@@ -10,7 +10,10 @@ Intersecting dates would then be considered as potential meetup times.
  to show entered data.
  Postgres was used to set up the database that handles form submissions. In addition to the
 auto-generated ID, it uses three fields (name, start_date, and end_date).
- The project was deployed on an AWS run Ubuntu server (an ec2 instance).
+ The built jar file can run on an AWS run Ubuntu server (an ec2 instance).
+ 
+ ### Composition
+  The project consists of 5 packages which will be described as follows:
  
  ### Challenges
  Running the application requires me to always connect to the ubuntu server and run the jar
