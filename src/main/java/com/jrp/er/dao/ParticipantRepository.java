@@ -13,7 +13,7 @@ import com.jrp.er.entities.Participant;
 public interface ParticipantRepository extends CrudRepository<Participant, Long> {
 
 	@Query(nativeQuery=true, value="Select name, start_date as startDate, end_date as endDate" + 
-			" from Participant where start_date is not null " )
+			" from Participant where start_date is not null ")
 	public List<ParticipantTimeline> getPartTimeline();
 	
 	@Override

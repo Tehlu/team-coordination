@@ -14,6 +14,18 @@ auto-generated ID, it uses three fields (name, start_date, and end_date).
  
  ### Composition
   The project consists of 5 packages which will be described as follows:
+   a) com.jrp.er
+      This is where the application will start running.
+   b) com.jrp.er.controllers
+      This is where the http commands(Get, Push requests etc) are captured and mapped to html pages.
+	  They also access data repositories and/or create new ones.
+   c) com.jrp.er.dao
+	  This is the interface that allows interaction with entities in the database.
+   d) com.jrp.er.dto
+	  This interface transfers each field of the data elements at the request of the controllers.
+   e) com.jrp.er.entities
+      This defines the fields of the elements.
+   
  
  ### Challenges
  Running the application requires me to always connect to the ubuntu server and run the jar
