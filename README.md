@@ -20,7 +20,8 @@ auto-generated ID, it uses three fields (name, start_date, and end_date).
       This is where the http commands(Get, Push requests etc) are captured and mapped to html pages.
 	  They also access data repositories and/or create new entities.
    c) com.jrp.er.dao
-	  This is the interface that allows interaction with entities in the database.
+	  This is the interface that allows interaction with entities in the database. It extends the
+	  CrudRepository class.
    d) com.jrp.er.dto
 	  This interface transfers each field of the data elements at the request of the controllers.
    e) com.jrp.er.entities
