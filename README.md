@@ -28,8 +28,9 @@ Intersecting dates would then be considered as potential meetup times.
 	  
 	  
   ### Datasource
-   I used Postgres to create the schema and add the data.In addition to the
+   I used Postgres to create the schema and the table.In addition to the
 auto-generated ID, it uses three fields (name, start_date, and end_date).
+The data is captured via a POST request when users enter their information in the form.
    
  
  ### Challenges
