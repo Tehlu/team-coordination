@@ -38,3 +38,8 @@
  file on my terminal. It's not very practical as the application doesn't run in the
  background. A way to continuously deploy and integrate should be sought after.
  
+### Disclaimer
+ This project was based on a course project at jobreadyprogrammer.com . The project consisted
+ of creating a Maven application called "Project Management" where all CRUD operations are in use.
+ So I took the 'skeleton' so to speak and added my own spin to come up with "Team Gatherin".
+ 

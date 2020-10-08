@@ -26,8 +26,6 @@ public class Participant {
 	//@DateTimeFormat(pattern = "yyyy-mm-dd")
 	private Date endDate;
 	
-	
-	
 	public Participant(String name, Date startDate, Date endDate) {
 		super();
 		this.name = name;

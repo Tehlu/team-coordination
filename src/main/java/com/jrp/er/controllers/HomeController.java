@@ -41,15 +41,7 @@ public class HomeController {
 	public String createParticipant(Participant par, Model model) throws JsonProcessingException {
 		
 		partRepo.save(par);
-		
-		List<ParticipantTimeline> partDataTime = partRepo.getPartTimeline();	
-		ObjectMapper objectMapper = new ObjectMapper();
-		String jsonTimelineString = objectMapper.writeValueAsString(partDataTime);
-		
-		model.addAttribute("partTimeList", jsonTimelineString);
-		
-		
-		
+			
 		return "redirect:/";
 	}
 	
