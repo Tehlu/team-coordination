@@ -25,15 +25,12 @@ public class HomeController {
 		
 		Participant aPart = new Participant();
 		model.addAttribute("participant", aPart);
-		
-
-		
+	
 		List<ParticipantTimeline> partDataTime = partRepo.getPartTimeline();	
 		ObjectMapper objectMapper = new ObjectMapper();
 		String jsonTimelineString = objectMapper.writeValueAsString(partDataTime);
 		
 		model.addAttribute("partTimeList", jsonTimelineString);
-		
 		return "homenet";
 	}
 	
@@ -41,18 +38,14 @@ public class HomeController {
 	public String createParticipant(Participant par, Model model) throws JsonProcessingException {
 		
 		partRepo.save(par);
-			
 		return "redirect:/";
 	}
 	
 	@GetMapping("/event/timelines")
-	public String displayTimelines(Model model) throws JsonProcessingException{
-		
-		
+	public String displayTimelines(Model model) throws JsonProcessingException{	
 		 List<ParticipantTimeline> partDataTime = partRepo.getPartTimeline();	
 			ObjectMapper objectMapper = new ObjectMapper();
 			String jsonTimelineString = objectMapper.writeValueAsString(partDataTime);
-			
 			model.addAttribute("partTimeList", jsonTimelineString);
 		
 		return "event-timelines";
