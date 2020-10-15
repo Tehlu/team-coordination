@@ -42,7 +42,8 @@ public class HomeController {
 	}
 	
 	@GetMapping("/event/timelines")
-	public String displayTimelines(Model model) throws JsonProcessingException{	
+	public String displayTimelines(Model model) throws JsonProcessingException{
+		
 		 List<ParticipantTimeline> partDataTime = partRepo.getPartTimeline();	
 			ObjectMapper objectMapper = new ObjectMapper();
 			String jsonTimelineString = objectMapper.writeValueAsString(partDataTime);
