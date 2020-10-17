@@ -14,17 +14,17 @@
 ### Composition
  The project consists of 5 packages:\
   a) **com.jrp.er**  
-		&nbsp;&nbsp;This is where the application will start running.\
+		&nbsp;&nbsp;&nbsp;&nbsp;This is where the application will start running.\
   b) **com.jrp.er.controllers**  
-		&nbsp;This is where the http commands(Get, Push requests etc) are captured and mapped to html pages.
-		&nbsp;They also access data repositories and/or create new entities.\
+		&nbsp;&nbsp;&nbsp;&nbsp;This is where the http commands(Get, Push requests etc) are captured and mapped to html pages.
+		&nbsp;&nbsp;&nbsp;&nbsp;They also access data repositories and/or create new entities.\
   c) **com.jrp.er.dao**  
-		&nbsp;This is the interface that allows interaction with entities in the database. It extends the
-		&nbsp;CrudRepository class.\
+		&nbsp;&nbsp;&nbsp;&nbsp;This is the interface that allows interaction with entities in the database. It extends the
+		&nbsp;&nbsp;&nbsp;&nbsp;CrudRepository class.\
   d) **com.jrp.er.dto**  
-		&nbsp;This interface transfers each field of the data elements at the request of the controllers.\
+		&nbsp;&nbsp;&nbsp;&nbsp;This interface transfers each field of the data elements at the request of the controllers.\
   e) **com.jrp.er.entities**  
-		&nbsp;This defines the fields of the elements.
+		&nbsp;&nbsp;&nbsp;&nbsp;This defines the fields of the elements.
 	  
 	  
 ### Datasource
