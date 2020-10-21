@@ -3,6 +3,10 @@
  Each participant would enter the name and available range of time.
  And then a chart would display showing the timeline of each willing participant.
  Intersecting dates would then be considered as potential meetup times.
+ 
+# Purpose
+  The purpose of this project is to showcase the skills learned at my course at jobreadyprogrammer.com
+  This is a personal project derived from using Java and Spring Boot in my course.
 
 ## Tools
  I used *Spring Boot 2* for this project. The MVC model was used to render
