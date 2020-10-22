@@ -5,7 +5,7 @@
  Intersecting dates would then be considered as potential meetup times.
  
 # Purpose
-  The purpose of this project is to showcase the skills learned at my course at jobreadyprogrammer.com
+  The purpose of this project is to showcase the skills learned at my course at jobreadyprogrammer.com.
   This is a personal project derived from using Java and Spring Boot in my course.
 
 ## Tools
