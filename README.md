@@ -9,8 +9,8 @@
   This is a personal project derived from using Java and Spring Boot in my course.
 
 ## Tools
- I used *Spring Boot 2* for this project. The MVC model was used to render
- the data sources to display on the browser. I used Thymeleaf as a template
+ I used *Spring Boot 2* for this project. The MVC model was used to access
+ the data sources and display on the browser. I used Thymeleaf as a template
  to show entered data.
  Postgres was used to set up the database that handles form submissions.
  The built jar file can run on an AWS run Ubuntu server which is an ec2 instance.
