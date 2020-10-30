@@ -13,7 +13,7 @@
  the data sources and display on the browser. I used Thymeleaf as a template
  to show entered data.
  Postgres was used to set up the database that handles form submissions.
- The built jar file can run on an AWS run Ubuntu server which is an ec2 instance.
+ The built jar file can run on an AWS supported Ubuntu server which is an ec2 instance.
  
 ### Composition
  The project consists of 5 packages:\
